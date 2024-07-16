@@ -1,0 +1,15 @@
+*
+!.gitignore
+!README.txt
+
+!components
+!components/com_calendar
+!components/com_calendar/.gitignore
+
+!administrator/
+!administrator/components/
+!administrator/components/com_calendar/
+!administrator/components/com_calendar/.gitignore
+
+!calendar
+!calendar/.gitignore

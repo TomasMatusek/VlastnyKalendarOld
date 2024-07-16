@@ -1,0 +1,2349 @@
+
+#obal_output {
+    color: red;
+    font-family: arial;
+    font-size: 20px;
+    margin: 70px 25px 25px;
+}
+
+.buttons-cal .submit-button-cover .btn-primary {
+    background: url("../img/select_template.png") no-repeat scroll 0 0 transparent;
+    box-shadow: none;
+    margin: 0;
+    padding: 0;
+    height: 35px;
+    font-size: 0px;
+    border: 0px;
+}
+
+.last-cal td {
+    vertical-align: middle;
+    border-bottom: 1px solid #ccc !important;
+}
+
+.last-cal td .btn {
+    margin: 0;
+}
+
+.buttons-cal .submit-button-cover .btn-primary:hover {
+    background: url("../img/select_template_hover.png") no-repeat scroll 0 0 transparent;
+}
+
+.buttons-cal .submit-button-cover .btn-primary .button:hover {
+    background: none;
+}
+
+li.used {
+    background: url("../img/used.png") no-repeat scroll 1px 53% rgba(0, 0, 0, 0) !important;
+}
+
+.btn-group .dropdown-menu a span {
+    color: #333333 !important;
+}
+
+.btn-group .dropdown-menu a:hover span {
+    color: #fff !important;
+}
+
+.btn-group .dropdown-menu a span.label {
+    color: #fff !important;
+}
+
+.top-panel .btn {
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25) !important;
+}
+
+.top-panel .btn-info {
+    background-color: #49AFCD !important;
+    background-image: -moz-linear-gradient(center top, #5BC0DE, #2F96B4) !important;
+    background-repeat: repeat-x !important;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25) !important;
+    background-image: -webkit-linear-gradient(top, #5BC0DE, #2F96B4) !important;
+}
+
+.top-panel .btn-info:hover, .top-panel .btn-info:active, .top-panel .btn-info.active, .top-panel .btn-info.disabled, .top-panel .btn-info[disabled] {
+    background-color: #2F96B4 !important;
+}
+
+.calEditCover .top-panel .button:hover {
+    background-color: #333;
+    padding: 10px 15px;
+}
+
+.calEditCover .top-panel .button {
+    font-size: 1.1em;
+    margin-bottom: 0;
+    margin-right: 0;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: 157px;
+}
+
+.calEditCover .top-panel .button i {
+    margin-top: 1px;
+}
+
+.cal-content ul {
+    margin-left: 10px;
+}
+
+.cal-content ul li {
+    padding-left: 12px !important;
+    padding-top: 1px;
+}
+
+.finished {
+    background: #c3fcbd !important;
+}
+
+.editable textarea {
+    height: 60px !important;
+    width: 220px !important;
+}
+
+.editable .clearfix {
+    height: 1px !important;
+    width: 100% !important;
+}
+
+.in_progress {
+    background: #fff6c9 !important;
+}
+
+#hladaj_kalendar {
+    margin: 0px !important;
+    display: block;
+}
+
+.unfinished {
+    background: #ffe2e2 !important;
+}
+
+#orders_stats .finished_order {
+    color: #0C0;
+    font-size: 20px;
+    line-height: 36px;
+}
+
+#orders_stats .in_progress_order {
+    color: #f2db13;
+    font-size: 20px;
+    line-height: 36px;
+}
+
+#orders_stats .unfinished_order {
+    color: #F00;
+    font-size: 20px;
+    line-height: 36px;
+}
+
+#orders_stats .separator_order {
+    font-size: 20px;
+    line-height: 36px;
+    color: #000;
+}
+
+#orders_stats .total_order {
+    font-size: 20px;
+    line-height: 36px;
+    color: #666;
+}
+
+.coupon_check {
+    width: 300px;
+}
+
+.cal-table-header {
+    background: #f7f4f4 !important;
+}
+
+.cal-table-desc {
+    background: #f7f4f4;
+}
+
+.cal-table-desc td {
+    padding: 4px !important;
+    font-size: 11px !important;
+}
+
+.coupon-qst {
+    width: 470px;
+    margin: 0 auto;
+}
+
+.image-used {
+    background: url("http://www.template.infoline.sk/components/com_calendar/assets/img/used.png") no-repeat scroll 9px center #EAFFE5 !important
+}
+
+.left {
+    float: left;
+}
+
+.modal-backdrop {
+    z-index: 5000 !important;
+}
+
+.pt-content-inside .input-prepend.input-preap-custom span {
+    background: none repeat scroll 0 0 #4297EE;
+    border-radius: 5px 0 0 5px;
+    border-right: 0 none;
+    color: white;
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+    height: 25px;
+    line-height: 25px;
+    margin-right: 0;
+    text-shadow: 0 1px 0 #000000;
+    width: 120px;
+    border-color: slategray;
+}
+
+.pt-content-inside .input-prepend.input-preap-custom input.span2 {
+    font-size: 14px;
+    font-weight: bold;
+    height: 25px;
+    line-height: 25px;
+    width: 290px;
+    padding-left: 15px;
+    border-color: slategray;
+}
+
+#system-message dd ul li.code {
+    background: none;
+    margin-bottom: 0;
+}
+
+#system-message dd ul {
+    border-bottom: 3px solid #84A7DB;
+    border-top: 3px solid #84A7DB;
+    color: #0055BB;
+    list-style: none outside none;
+    margin-bottom: 10px;
+    margin-left: 0;
+    margin-top: 0;
+    padding: 10px;
+}
+
+.modal {
+    z-index: 5500 !important;
+}
+
+.settings {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+}
+
+g
+.buttons-cal .submit-button-cover .btn-primary {
+    margin-bottom: 5px;
+    margin-top: 0px;
+    padding: 0;
+}
+
+.buttons-cal .submit-button-cover .btn-primary .step-button {
+    height: 30px;
+    min-width: 180px;
+    padding: 5px;
+}
+
+p.tip {
+    font-weight: bold;
+}
+
+p.tip span {
+    color: red;
+}
+
+.buttons-cal .submit-button-cover {
+    margin-right: 30px;
+    margin-top: -30px;
+    text-align: center;
+}
+
+.buttons-cal {
+    padding-left: 15px;
+}
+
+.order-form .input-cover:hover {
+    background: none;
+}
+
+.order-form .input-cover input {
+    font-weight: bold;
+}
+
+.admin-form ul li {
+    background: none repeat scroll 0 0 transparent;
+    border-left: 1px solid #555555;
+    float: left;
+    font-weight: bold;
+    margin-left: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-transform: capitalize;
+}
+
+.pt-content-inside #system-message {
+    border: 0px solid red !important;
+}
+
+.modal-body .highlight {
+    background: none !important;
+    color: red !important;
+}
+
+.admin-form h1 span {
+    text-transform: capitalize;
+}
+
+.admin-form ul {
+    margin: 20px 0;
+    min-height: 25px;
+}
+
+.btn-success .button {
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    color: white;
+    font-weight: bold;
+    height: 47px;
+    margin-top: 0;
+    padding: 15px 25px;
+    text-transform: uppercase;
+}
+
+.input-cover .input-prepend {
+    margin: 0;
+}
+
+.input-cover .input-prepend .add-on {
+    font-size: 13px;
+}
+
+.noPhoto {
+    color: red;
+    width: 170px;
+}
+
+.submit-cover {
+    width: 100%;
+    text-align: center;
+}
+
+.order-form .btn-success {
+    font-weight: bold;
+    margin: 20px 7px 7px;
+    padding: 0;
+}
+
+.order-button a, .order-button a:hover {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    color: white;
+    cursor: pointer;
+    display: block;
+    font-family: Arial;
+    font-weight: bold;
+    padding: 15px 0;
+    text-decoration: none;
+    width: 100%;
+}
+
+.parms .price-span {
+    float: none;
+    margin-left: 0;
+}
+
+.form-input-cover {
+    width: 65%;
+}
+
+.parms {
+    background: none repeat scroll 0 0 #EEEEEE;
+    border: 1px solid #CCCCCC;
+    float: right;
+    min-height: 225px;
+    padding: 7px;
+    width: 31%;
+}
+
+.nlb {
+    border-radius: 0 3px 3px 0 !important;
+    width: 172px !important;
+}
+
+.mar-phone {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 #DDDDDD;
+    border-color: #CCCCCC -moz-use-text-color #CCCCCC #CCCCCC;
+    border-image: none;
+    border-radius: 4px 0 0 4px;
+    border-style: solid none solid solid;
+    border-width: 1px 0 1px 1px;
+    color: #555555;
+    float: left;
+    font-size: 13px;
+    font-weight: bold;
+    height: 16px;
+    line-height: 16px;
+    padding: 5px 5px 5px 7px;
+    width: 30px;
+}
+
+.cal-price {
+    color: #555555;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    text-align: center;
+    width: 100%;
+}
+
+.parm-title {
+    border-bottom: 1px solid #DE3F00;
+    color: #DE3F00;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: left;
+}
+
+td.title {
+    font-weight: bold;
+    width: 120px;
+}
+
+.parms table {
+    border: 0 none;
+}
+
+.parms table td {
+    border-bottom: 1px solid #CDCDCD;
+    border-left: 0 none;
+    border-top: 0 none;
+    padding-bottom: 4px;
+}
+
+.uploader .page-header {
+    border-bottom: 0 none;
+    margin-bottom: 5px;
+    margin-top: 0;
+    padding-bottom: 0;
+}
+
+.boxfortick {
+    margin-right: 28px;
+}
+
+.order-title {
+    float: left;
+    margin-top: 4px;
+    min-width: 202px;
+}
+
+.large-btn-cover {
+    margin-bottom: 7px;
+    text-align: right;
+    width: 215px;
+}
+
+.uploader {
+    width: auto !important;
+}
+
+.order-cover {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.order-cover img {
+    border: 1px solid #bbb;
+    margin-left: 5px;
+}
+
+.order-cover input, .order-cover p {
+    margin-bottom: 0 !important;
+}
+
+.submit-button-cover.order-button .btn-success {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    min-width: 250px;
+    padding: 0px;
+}
+
+.submit-button-cover.order-button .btn-primary {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    min-width: 250px;
+    padding: 0px;
+}
+
+.submit-button-cover.order-button .icon-white {
+    margin-right: 5px;
+    margin-top: 1px;
+}
+
+.settings select {
+    background: none repeat scroll 0 0 #DFDFDF;
+    border: 1px solid #AAAAAA;
+    border-radius: 5px 5px 5px 5px;
+    font-size: 15px;
+    font-weight: normal;
+    padding: 4px 2px 3px 10px;
+    width: 158px;
+}
+
+.settings span.alterTitle {
+    padding: 0px !important;
+}
+
+.settings td {
+    border: 0 none;
+}
+
+.submit-button-cover .icon-white {
+    margin-top: 2px;
+}
+
+.submit-button-cover .btn-primary {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 0;
+}
+
+.ibutton-container label {
+    font-weight: bold;
+    line-height: 17px;
+    display: inline;
+}
+
+.buttons-cal .submit-button-cover .btn-primary {
+    margin: 0;
+    padding: 0;
+}
+
+.submit-button-cover .btn-primary .step-button {
+    min-width: 250px;
+    padding: 15px;
+    height: 50px;
+}
+
+.step-button {
+    background: none;
+    border: 0 none;
+    color: white;
+    cursor: pointer;
+    font-family: Arial;
+    font-weight: bold;
+    width: 100%;
+}
+
+.input-cover:hover {
+    background-color: #0055cc;
+}
+
+.submit-button-cover {
+    text-align: center;
+}
+
+.radio-cal {
+    display: block;
+    margin: 0 auto 10px;
+}
+
+.width-3 {
+    width: 170px;
+}
+
+h2.big-title {
+    border-bottom: 1px solid #F78E0C;
+    color: #F78E0C;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    padding-bottom: 3px;
+}
+
+a {
+    color: #F78E0C
+}
+
+#system-message dd.message ul {
+    background: url("../img/notice-info.png") no-repeat scroll 4px center #C3D2E5;
+}
+
+.cal-input-cover {
+    background: #EFEFEF;
+    position: relative;
+    border: 1px solid #CCCCCC;
+    border-radius: 0 0 0 0;
+    margin-bottom: 12px;
+    margin-right: 13px;
+    min-height: 284px;
+    padding: 12px 8px 8px;
+    text-align: center;
+    width: 433px;
+}
+
+.cal-input-cover .price-cover {
+    background: none repeat scroll 0 0 #F5F5F5;
+    border: 1px solid #BBBBBB;
+    border-radius: 0 0 20px 20px;
+    font-size: 17px;
+    font-weight: bold;
+    left: 8px;
+    padding-left: 0;
+    padding-top: 9px;
+    position: absolute;
+    text-align: center;
+    /*top: 66%;*/
+    top: 71%;
+    width: 160px;
+    z-index: 999;
+}
+
+#cal-body .cal-input-cover .price-cover {
+    top: 66%;
+}
+
+.price-cover .price-tag {
+    color: #F78E0C;
+}
+
+/*
+.cal-input-cover.price-2 {
+    background: url("http://www.template.infoline.sk/components/com_calendar/assets/img/14.png") no-repeat scroll right top #EFEFEF;
+}
+
+.cal-input-cover.price-3 {
+    background: url("http://www.template.infoline.sk/components/com_calendar/assets/img/1049.png") no-repeat scroll right top #EFEFEF;
+}
+
+.cal-input-cover.price-4 {
+    background: url("http://www.template.infoline.sk/components/com_calendar/assets/img/1499.png") no-repeat scroll right top #EFEFEF;
+}
+
+.cal-input-cover.price-5 {
+    background: url("http://www.template.infoline.sk/components/com_calendar/assets/img/999.png") no-repeat scroll right top #EFEFEF;
+} */
+
+.cal-input-cover.hide-price {
+    background: #EFEFEF !important;
+}
+
+.cal-input-cover img {
+    border: 1px solid #BBBBBB;
+    margin-top: 14px;
+}
+
+span.alterTitle {
+    color: #12353F;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.cal-info {
+    width: 270px;
+}
+
+.cal-info ul li {
+    margin-bottom: 10px;
+    padding-left: 20px;
+    text-align: left;
+}
+
+.cal-info ul {
+    margin-top: 7px;
+}
+
+.cal-input-cover:hover img {
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.3);
+}
+
+.last {
+    margin-right: 0 !important;
+}
+
+#calendar span.orange.alterTitle {
+    display: block;
+    font-weight: bold;
+    line-height: normal;
+    padding-bottom: 7px;
+    text-align: center;
+    text-transform: none;
+}
+
+.col {
+    width: 1%;
+    height: 100px;
+    float: left;
+}
+
+.wrapper-over {
+    width: 900px;
+    margin: 0 auto;
+    padding: 0;
+    background: white;
+    padding: 30px;
+}
+
+.wrapper-inside {
+    border: 1px solid #A6A6A6;
+    margin: 0 auto;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.6);
+}
+
+.mover, .mover2, .mover3, .mover4 {
+    border: 0px solid #A6A6A6;
+    overflow: hidden;
+    position: relative;
+}
+
+ul.upl-images {
+    margin: 0;
+    width: 100%;
+}
+
+/*ul.upl-images li {
+	background: none repeat scroll 0 0 transparent;
+    border-bottom: 1px solid #CCCCCC;
+    display: block;
+    line-height: 100px;
+    margin: 0 0 5px;
+    min-height: 85px;
+    padding: 0;
+    position: relative;
+	text-align: center;
+}*/
+
+ul.upl-images li {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    display: block;
+    margin: 0 0 10px;
+    width: 100%;
+    padding: 0;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+}
+
+ul.upl-images li img {
+    vertical-align: middle;
+    width: 100%;
+}
+
+.addImage {
+    background: none repeat scroll 0 0 rgba(54, 25, 25, 0.5);
+    border: medium none;
+    color: white;
+    display: none;
+    font-size: 14px;
+    font-weight: bold;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    visibility: visible !important;
+    width: 100% !important;
+}
+
+#system-message dd.error ul {
+    background: url("../img/notice-alert.png") no-repeat scroll 12px 4px #E6C0C0;
+    border-bottom: 3px solid #DE7A7B;
+    border-top: 3px solid #DE7A7B;
+    color: #CC0000;
+    margin: 0;
+    padding: 9px 5px 5px;
+    width: 95%;
+}
+
+#system-message dd {
+    font-weight: bold;
+    margin: 0;
+    text-indent: 30px;
+}
+
+#system-message {
+    margin-bottom: 10px;
+    padding: 0;
+    border: 0;
+    background: none;
+}
+
+#system-message dd.error ul {
+    color: #CC0000;
+}
+
+#system-message dd.error ul li {
+    background: none;
+}
+
+.steps li {
+    background-color: #EEEEEE;
+    background-image: none;
+    background-position: 3px center;
+    border-bottom: 1px solid #DCDCDC;
+    border-top: 1px solid #DCDCDC;
+    float: left;
+    height: 25px;
+    /*    padding: 16px 30px 5px 8px;*/
+    padding: 16px 19px 5px;
+    position: relative;
+    line-height: 14px;
+    text-transform: capitalize;
+}
+
+.front-page-item {
+    padding: 16px 22px 5px !important;
+}
+
+.currentMonth {
+    padding-top: 35px;
+    text-transform: capitalize;
+}
+
+#saveCalendar {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding: 14px;
+    width: 183px;
+}
+
+.customModal {
+    margin-bottom: 15px !important;
+    margin-top: 0;
+    padding: 13px !important;
+    width: 156px;;
+}
+
+.scorller {
+    height: 750px;
+}
+
+.pt-content-inside .photobutton {
+    height: 16px;
+    margin-bottom: 5px;
+    padding: 14px;
+    width: 153px;
+}
+
+#positonSelector {
+    width: 168px;
+    border-radius: 3px;
+}
+
+.row-step .steps .itemlist.done {
+    background: url("../img/progress.jpg") repeat-x scroll left center #EEEEEE;
+}
+
+.first-item {
+    border-left: 1px solid #DCDCDC;
+    border-radius: 5px 0 0 5px;
+    padding-left: 21px !important;
+}
+
+.last-item {
+    border-radius: 0 5px 5px 0;
+    border-right: 1px solid #DCDCDC;
+    padding-left: 4px !important;
+    padding-right: 22px !important;
+}
+
+.both-item {
+    border-radius: 5px;
+    border: 1px solid #DCDCDC;
+}
+
+.step-number {
+    background: none repeat scroll 0 0 #EEEEEE;
+    border: 1px solid #999999;
+    border-radius: 15px 15px 15px 15px;
+    color: #222222;
+    font-size: 12px;
+    margin-right: 10px;
+    padding: 3px 6px;
+    position: absolute;
+    right: 5px;
+    text-shadow: 0 1px 0 #B5B5B5;
+    top: -14px;
+}
+
+.row-step {
+}
+
+.position-select {
+    background: none repeat scroll 0 0 #EEEEEE;
+    border: 1px solid #DFDFDF;
+    padding: 7px 7px 20px;
+    margin-bottom: 5px;
+    border-radius: 3px;
+}
+
+p.steps {
+    color: #12353F;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.row-step ul {
+    height: 30px;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+    width: 920px;
+    margin-top: 10px;
+}
+
+#ad-calendar-upload {
+    float: left;
+    margin-top: 15px;
+    width: 20%;
+}
+
+#ad-calendar-view {
+    float: left;
+    width: 80%;
+}
+
+.preloader {
+}
+
+.preload-cover {
+    margin-top: 12px;
+    text-align: center;
+    color: red;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+.calTools .infobox-inner {
+    padding-top: 5px;
+    padding-left: 7px;
+    padding-right: 5px;
+}
+
+.one-twelve {
+    display: inline;
+    float: left;
+}
+
+.one-twelve {
+    width: 8.33%;
+    text-align: center;
+}
+
+.monthsList.alert.alert-info {
+    padding: 10px 3px;
+}
+
+.monthsList section {
+    margin: 0;
+}
+
+.calEditCover h2 {
+    margin-bottom: 20px;
+}
+
+.calEditCover {
+    position: relative;
+    margin-bottom: 35px;
+}
+
+.button i {
+    margin-top: 2px;
+    margin-right: 0px;
+}
+
+a.button:hover {
+    text-decoration: none;
+}
+
+.xboxfortick {
+    margin-top: 8px;
+}
+
+.xboxfortick input {
+    margin-bottom: 3px !important;
+    margin-right: 4px;
+}
+
+.calEditCover .button {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: 157px;
+}
+
+.calEditCover button.button {
+    text-align: left;
+    width: 187px;
+}
+
+.monthsDone {
+    color: #555555;
+    font-size: 18px;
+    position: absolute;
+    right: 0;
+    top: 18px;
+}
+
+.buttons-cover {
+    margin-bottom: 10px;
+}
+
+.title-button {
+    font-size: 14px;
+    font-weight: normal;
+    letter-spacing: normal;
+    padding-top: 6px;
+}
+
+/**** VIEW ****/
+
+.iviewer_zoom_in {
+    left: 3px;
+}
+
+.iviewer_zoom_out {
+    left: 28px;
+}
+
+.iviewer_zoom_zero {
+    left: 53px;
+}
+
+.iviewer_zoom_fit {
+    left: 78px;
+}
+
+.iviewer_rotate_left {
+    left: 103px;
+}
+
+.iviewer_rotate_right {
+    left: 128px;
+}
+
+.wrapper-inside, .moveAble {
+    position: relative;
+}
+
+#customText {
+    color: #E31B22;
+    font-size: 32px;
+    font-weight: bold;
+    position: absolute;
+    line-height: normal;
+}
+
+.month.month-january,
+.month.month-february,
+.month.month-march,
+.month.month-april,
+.month.month-may,
+.month.month-june,
+.month.month-july,
+.month.month-august,
+.month.month-september,
+.month.month-october,
+.month.month-november,
+.month.month-december,
+.month.month-cover {
+    /* background-size: 115%; */
+}
+
+
+/******************** TYP A ******************************/
+
+.wrapper-inside.typA {
+    height: 800px;
+    width: 264px;
+}
+
+.wrapper-inside.typA #customText {
+    height: 179px;
+    left: 20px;
+    margin-top: 66px;
+    width: 222px;
+}
+
+.wrapper-inside.typA .mover1 {
+    border: 1px solid #CCCCCC;
+    height: 429px;
+    margin-left: 21px;
+    margin-top: 25px;
+    width: 220px;
+}
+
+/******************** TYP B ******************************/
+
+.wrapper-inside.typB {
+    height: 800px;
+    width: 256px;
+}
+
+.wrapper-inside.typB .mover1 {
+    border: 1px solid #cccccc;
+    height: 206px;
+    margin-left: 19px;
+    margin-top: 25px;
+    width: 214px;
+}
+
+.wrapper-inside.typB .mover2 {
+    border: 1px solid #CCCCCC;
+    height: 206px;
+    margin-left: 19px;
+    margin-top: 17px;
+    width: 214px;
+}
+
+.wrapper-inside.typB.cover #customText {
+    color: #0085C9;
+    font-size: 26px;
+    font-weight: bold;
+    left: 19px;
+    top: 561px;
+    width: 221px;
+}
+
+/******************** TYP C ******************************/
+
+.wrapper-inside.typC {
+    height: 800px;
+    width: 566px;
+    margin-top: 20px;
+}
+
+.wrapper-inside.typC .mover1 {
+    height: 669px;
+    width: 566px;
+}
+
+.wrapper-inside.typC .month {
+    position: absolute;
+    z-index: 5000;
+}
+
+.typC .month.month-january {
+    bottom: 0px;
+    height: 86px;
+    right: 30px;
+    width: 333px;
+    background-size: 150%;
+}
+
+.typC .month.month-february {
+    bottom: 0px;
+    height: 86px;
+    right: 30px;
+    width: 333px;
+    background-size: 150%;
+}
+
+.typC .month.month-march {
+    bottom: 0px;
+    height: 86px;
+    right: 30px;
+    width: 333px;
+    background-size: 150%;
+}
+
+.typC .month.month-april {
+    bottom: 0px;
+    height: 86px;
+    right: 30px;
+    width: 333px;
+    background-size: 150%;
+}
+
+.typC .month.month-may {
+    bottom: 0px;
+    height: 86px;
+    right: 30px;
+    width: 333px;
+    background-size: 150%;
+}
+
+.typC .month.month-june {
+    bottom: 0px;
+    height: 86px;
+    right: 30px;
+    width: 333px;
+    background-size: 150%;
+}
+
+.typC .month.month-july {
+    bottom: 0px;
+    height: 86px;
+    right: 30px;
+    width: 333px;
+    background-size: 150%;
+}
+
+.typC .month.month-august {
+    bottom: 0px;
+    height: 86px;
+    right: 30px;
+    width: 333px;
+    background-size: 150%;
+}
+
+.typC .month.month-september {
+    bottom: 0px;
+    height: 86px;
+    right: 30px;
+    width: 333px;
+    background-size: 150%;
+}
+
+.typC .month.month-october {
+    bottom: 0px;
+    height: 86px;
+    right: 30px;
+    width: 333px;
+    background-size: 150%;
+}
+
+.typC .month.month-november {
+    bottom: 0px;
+    height: 86px;
+    right: 30px;
+    width: 333px;
+    background-size: 150%;
+}
+
+.typC .month.month-december {
+    bottom: 0px;
+    height: 86px;
+    right: 30px;
+    width: 333px;
+    background-size: 150%;
+}
+
+.wrapper-inside.typC.cover #customText {
+    bottom: 125px;
+    color: #0086CA;
+    font-size: 30px;
+    font-weight: bold;
+    height: 108px;
+    left: 29px;
+    top: 680px;
+    width: 340px;
+}
+
+.wrapper-inside.typD {
+    margin-top: 20px;
+}
+
+.wrapper-inside.typD.cover .mover1 {
+    height: 389px;
+    margin-left: 31px;
+    margin-top: 188px;
+    width: 503px;
+}
+
+.wrapper-inside.typD .mover1 {
+    height: 356px;
+    margin-left: 30px;
+    margin-top: 33px;
+    width: 504px;
+}
+
+.wrapper-inside.typD .mover2 {
+    float: left;
+    height: 192px;
+    margin-left: 30px;
+    margin-top: 32px;
+    width: 149px;
+}
+
+.wrapper-inside.typD .mover3 {
+    float: left;
+    height: 192px;
+    margin-left: 30px;
+    margin-top: 33px;
+    width: 147px;
+}
+
+.wrapper-inside.typD .mover4 {
+    float: left;
+    height: 192px;
+    margin-left: 29px;
+    margin-top: 33px;
+    width: 149px;
+}
+
+.wrapper-inside.typD.cover #customText {
+    bottom: 125px;
+    color: #0086CA;
+    font-size: 37px;
+    font-weight: bold;
+    height: 135px;
+    left: 30px;
+    top: 645px;
+    width: 504px;
+}
+
+
+.wrapper-inside.typE {
+    margin-top: 30px;
+}
+
+.wrapper-inside.typE.cover .mover1 {
+    height: 355px;
+    margin-left: 31px;
+    margin-top: 255px;
+    width: 503px;
+}
+
+.wrapper-inside.typE .mover1 {
+    float: left;
+    height: 192px;
+    margin-bottom: 30px;
+    margin-left: 31px;
+    margin-top: 33px;
+    width: 149px;
+}
+
+.wrapper-inside.typE .mover2 {
+    float: left;
+    height: 192px;
+    margin-bottom: 30px;
+    margin-left: 28px;
+    margin-top: 33px;
+    width: 149px;
+}
+
+.wrapper-inside.typE .mover3 {
+    float: left;
+    height: 192px;
+    margin-bottom: 30px;
+    margin-left: 29px;
+    margin-top: 33px;
+    width: 148px;
+}
+
+.wrapper-inside.typE .mover4 {
+    clear: both;
+    height: 357px;
+    margin-left: 31px;
+    margin-top: 0;
+    width: 503px;
+}
+
+.wrapper-inside.typE.cover #customText {
+    bottom: 125px;
+    color: #D34C41;
+    font-size: 37px;
+    font-weight: bold;
+    height: 133px;
+    left: 42px;
+    top: 55px;
+    width: 482px;
+}
+
+
+.wrapper-inside.typF {
+    height: 800px;
+    width: 566px;
+    margin-top: 20px;
+}
+
+.wrapper-inside.typF .mover1 {
+    height: 669px;
+    width: 566px;
+}
+
+.wrapper-inside.typF .month {
+    position: absolute;
+    z-index: 5000;
+}
+
+.typF .month.month-january {
+    bottom: 0px;
+    height: 86px;
+    right: 30px;
+    width: 333px;
+    background-size: 150%;
+}
+
+.typF .month.month-february {
+    bottom: 0px;
+    height: 86px;
+    right: 30px;
+    width: 333px;
+    background-size: 150%;
+}
+
+.typF .month.month-march {
+    bottom: 0px;
+    height: 86px;
+    right: 30px;
+    width: 333px;
+    background-size: 150%;
+}
+
+.typF .month.month-april {
+    bottom: 0px;
+    height: 86px;
+    right: 30px;
+    width: 333px;
+    background-size: 150%;
+}
+
+.typF .month.month-may {
+    bottom: 0px;
+    height: 86px;
+    right: 30px;
+    width: 333px;
+    background-size: 150%;
+}
+
+.typF .month.month-june {
+    bottom: 0px;
+    height: 86px;
+    right: 30px;
+    width: 333px;
+    background-size: 150%;
+}
+
+.typF .month.month-july {
+    bottom: 0px;
+    height: 86px;
+    right: 30px;
+    width: 333px;
+    background-size: 150%;
+}
+
+.typF .month.month-august {
+    bottom: 0px;
+    height: 86px;
+    right: 30px;
+    width: 333px;
+    background-size: 150%;
+}
+
+.typF .month.month-september {
+    bottom: 0px;
+    height: 86px;
+    right: 30px;
+    width: 333px;
+    background-size: 150%;
+}
+
+.typF .month.month-october {
+    bottom: 0px;
+    height: 86px;
+    right: 30px;
+    width: 333px;
+    background-size: 150%;
+}
+
+.typF .month.month-november {
+    bottom: 0px;
+    height: 86px;
+    right: 30px;
+    width: 333px;
+    background-size: 150%;
+}
+
+.typF .month.month-december {
+    bottom: 0px;
+    height: 86px;
+    right: 30px;
+    width: 333px;
+    background-size: 150%;
+}
+
+.typF .month.month-cover {
+    bottom: 10px;
+    height: 86px;
+    right: 30px;
+    width: 333px;
+    background-size: 150%;
+}
+
+.wrapper-inside.typF.cover #customText {
+    bottom: 125px;
+    color: #DD020A;
+    font-size: 32px;
+    font-weight: bold;
+    height: 108px;
+    left: 29px;
+    top: 680px;
+    width: 505px;
+}
+
+.wrapper-inside.typG {
+    margin-top: 20px;
+}
+
+.wrapper-inside.typG .mover1 {
+    height: 359px;
+    margin-left: 28px;
+    margin-top: 38px;
+    width: 509px;
+}
+
+.wrapper-inside.typG.cover .mover1 {
+    height: 447px;
+    margin-left: 29px;
+    margin-top: 171px;
+    width: 508px;
+}
+
+.wrapper-inside.typG .mover2 {
+    float: left;
+    height: 192px;
+    margin-left: 28px;
+    margin-top: 29px;
+    width: 151px;
+}
+
+.wrapper-inside.typG .mover3 {
+    float: left;
+    height: 192px;
+    margin-left: 30px;
+    margin-top: 29px;
+    width: 148px;
+}
+
+.wrapper-inside.typG .mover4 {
+    float: left;
+    height: 192px;
+    margin-left: 29px;
+    margin-top: 29px;
+    width: 150px;
+}
+
+.wrapper-inside.typG.cover #customText {
+    bottom: 125px;
+    color: #0086CA;
+    font-size: 37px;
+    font-weight: bold;
+    height: 135px;
+    left: 31px;
+    top: 40px;
+    width: 504px;
+}
+
+.wrapper-inside.typH {
+    margin-top: 30px;
+}
+
+.wrapper-inside.typH .mover1 {
+    float: left;
+    height: 192px;
+    margin-bottom: 29px;
+    margin-left: 29px;
+    margin-top: 38px;
+    width: 149px;
+}
+
+.wrapper-inside.typH.cover .mover1 {
+    height: 447px;
+    margin-bottom: 29px;
+    margin-left: 29px;
+    margin-top: 171px;
+    width: 508px;
+}
+
+.wrapper-inside.typH .mover2 {
+    float: left;
+    height: 192px;
+    margin-bottom: 29px;
+    margin-left: 29px;
+    margin-top: 38px;
+    width: 150px;
+}
+
+.wrapper-inside.typH .mover3 {
+    float: left;
+    height: 192px;
+    margin-bottom: 29px;
+    margin-left: 30px;
+    margin-top: 38px;
+    width: 150px;
+}
+
+.wrapper-inside.typH .mover4 {
+    clear: both;
+    height: 359px;
+    margin-left: 29px;
+    margin-top: 0;
+    width: 508px;
+}
+
+.wrapper-inside.typH.cover #customText {
+    bottom: 125px;
+    color: #DD020A;
+    font-size: 37px;
+    font-weight: bold;
+    height: 133px;
+    left: 42px;
+    top: 55px;
+    width: 482px;
+}
+
+.wrapper-inside.typI.cover .mover1 {
+    height: 385px;
+    width: 710px;
+}
+
+.wrapper-inside.typI .mover1 {
+    height: 363px;
+    width: 710px;
+}
+
+.wrapper-inside.typI .month {
+    position: absolute;
+    z-index: 5000;
+}
+
+.wrapper-inside.typI.cover #customText {
+    bottom: 125px;
+    color: #DD020A;
+    font-size: 34px;
+    font-weight: bold;
+    height: 69px;
+    left: 29px;
+    top: 400px;
+    width: 485px;
+}
+
+.wrapper-inside.typI .month.month-january {
+		bottom: 0px;
+		height: 80px;
+    width: 708px;
+    background-size: 115%;
+}
+
+.wrapper-inside.typI .month.month-february {
+		bottom: 0px;
+		height: 80px;
+		width: 708px;
+		background-size: 115%;
+}
+
+.wrapper-inside.typI .month.month-march {
+		bottom: 0px;
+		height: 80px;
+		width: 708px;
+		background-size: 115%;
+}
+
+.wrapper-inside.typI .month.month-april {
+		bottom: 0px;
+		height: 80px;
+		width: 708px;
+		background-size: 115%;
+}
+
+.wrapper-inside.typI .month.month-may {
+		bottom: 0px;
+		height: 80px;
+		width: 708px;
+		background-size: 115%;
+}
+
+.wrapper-inside.typI .month.month-june {
+		bottom: 0px;
+		height: 80px;
+		width: 708px;
+		background-size: 115%;
+}
+
+.wrapper-inside.typI .month.month-july {
+		bottom: 0px;
+		height: 80px;
+		width: 708px;
+		background-size: 115%;
+}
+
+.wrapper-inside.typI .month.month-august {
+		bottom: 0px;
+		height: 80px;
+		width: 708px;
+		background-size: 115%;
+}
+
+.wrapper-inside.typI .month.month-september {
+		bottom: 0px;
+		height: 80px;
+		width: 708px;
+		background-size: 115%;
+}
+
+.wrapper-inside.typI .month.month-october {
+		bottom: 0px;
+		height: 80px;
+		width: 708px;
+		background-size: 115%;
+}
+
+.wrapper-inside.typI .month.month-november {
+		bottom: 0px;
+		height: 80px;
+		width: 708px;
+		background-size: 115%;
+}
+
+.wrapper-inside.typI .month.month-december {
+		bottom: 0px;
+		height: 80px;
+		width: 708px;
+		background-size: 115%;
+}
+
+.wrapper-inside.typJ .mover1 {
+    border: 1px solid #CCCCCC;
+    height: 430px;
+    margin-left: 24px;
+    margin-top: 41px;
+    width: 349px;
+}
+
+.wrapper-inside.typJ.cover .mover1 {
+    border: 1px solid #CCCCCC;
+    height: 388px;
+    margin-left: 164px;
+    margin-top: 83px;
+    width: 517px;
+}
+
+.wrapper-inside.typJ.cover #customText {
+    bottom: 125px;
+    color: #E31B22;
+    font-size: 24px;
+    font-weight: bold;
+    height: 69px;
+    left: 167px;
+    top: 20px;
+    width: 485px;
+}
+
+.wrapper-inside.typK .mover1 {
+    border: 1px solid #CCCCCC;
+    float: left;
+    height: 256px;
+    margin-left: 23px;
+    margin-top: 34px;
+    width: 233px;
+}
+
+.wrapper-inside.typK .mover2 {
+    border: 1px solid #CCCCCC;
+    float: right;
+    height: 256px;
+    margin-right: 24px;
+    margin-top: 34px;
+    width: 233px;
+}
+
+.wrapper-inside.typK.cover .mover1 {
+    float: left;
+    height: 256px;
+    margin-left: 23px;
+    margin-top: 34px;
+    width: 342px;
+}
+
+.wrapper-inside.typK.cover #customText {
+    bottom: 125px;
+    color: #DD020A;
+    font-size: 19px;
+    font-weight: normal;
+    height: 155px;
+    left: 400px;
+    top: 32px;
+    width: 341px;
+}
+
+.wrapper-inside.typL .mover1 {
+    border: 1px solid #cccccc;
+    float: right;
+    height: 320px;
+    margin-right: -1px;
+    width: 490px;
+    top: -1px;
+}
+
+.wrapper-inside.typL.cover #customText {
+    color: #E31B22;
+    font-size: 20px;
+    font-weight: normal;
+    height: 158px;
+    left: 21px;
+    line-height: normal;
+    position: absolute;
+    top: 20px;
+    width: 228px;
+}
+
+
+.wrapper-inside.typN .mover1 {
+    border: 1px solid #CCCCCC;
+    height: 436px;
+    margin-left: 23px;
+    margin-top: 42px;
+    width: 353px;
+}
+
+.wrapper-inside.typN .month {
+    position: absolute;
+    z-index: 5000;
+}
+
+.wrapper-inside.typN.cover .mover1 {
+    border: 1px solid #CCCCCC;
+    height: 398px;
+    margin-left: 23px;
+    margin-top: 80px;
+    width: 661px;
+}
+
+.typN .month.month-cover {
+    bottom: 35px;
+    height: 85px;
+    right: 0px;
+    width: 340px;
+    background-size: 275%;
+}
+
+.wrapper-inside.typN.cover #customText {
+    bottom: 125px;
+    color: #007FC6;
+    font-size: 26px;
+    font-weight: bold;
+    height: 69px;
+    left: 24px;
+    top: 39px;
+    width: 661px;
+}
+
+.wrapper-inside.typM .mover1 {
+    height: 366px;
+    width: 710px;
+}
+
+.wrapper-inside.typM .month {
+    position: absolute;
+    z-index: 5000;
+}
+
+.wrapper-inside.typM.cover #customText {
+    bottom: 125px;
+    color: #DD020A;
+    font-size: 25px;
+    font-weight: bold;
+    height: 95px;
+    left: 31px;
+    top: 386px;
+    width: 475px;
+}
+
+.wrapper-inside.typM .month.month-january {
+    bottom: 0px;
+    height: 80px;
+    width: 708px;
+    background-size: 115%;
+}
+
+.wrapper-inside.typM .month.month-february {
+		bottom: 0px;
+		height: 80px;
+		width: 708px;
+		background-size: 115%;
+}
+
+.wrapper-inside.typM .month.month-march {
+		bottom: 0px;
+		height: 80px;
+		width: 708px;
+		background-size: 115%;
+}
+
+.wrapper-inside.typM .month.month-april {
+		bottom: 0px;
+		height: 80px;
+		width: 708px;
+		background-size: 115%;
+}
+
+.wrapper-inside.typM .month.month-may {
+		bottom: 0px;
+		height: 80px;
+		width: 708px;
+		background-size: 115%;
+}
+
+.wrapper-inside.typM .month.month-june {
+		bottom: 0px;
+		height: 80px;
+		width: 708px;
+		background-size: 115%;
+}
+
+.wrapper-inside.typM .month.month-july {
+		bottom: 0px;
+		height: 80px;
+		width: 708px;
+		background-size: 115%;
+}
+
+.wrapper-inside.typM .month.month-august {
+		bottom: 0px;
+		height: 80px;
+		width: 708px;
+		background-size: 115%;
+}
+
+.wrapper-inside.typM .month.month-september {
+		bottom: 0px;
+		height: 80px;
+		width: 708px;
+		background-size: 115%;
+}
+
+.wrapper-inside.typM .month.month-october {
+		bottom: 0px;
+		height: 80px;
+		width: 708px;
+		background-size: 115%;
+}
+
+.wrapper-inside.typM .month.month-november {
+		bottom: 0px;
+		height: 80px;
+		width: 708px;
+		background-size: 115%;
+}
+
+.wrapper-inside.typM .month.month-december {
+		bottom: 0px;
+		height: 80px;
+		width: 708px;
+		background-size: 115%;
+}
+
+/**** CAL BOX ****/
+
+/**** TYPE O ****/
+
+.wrapper-inside.typO .mover1 {
+    border: 1px solid #CCCCCC;
+    height: 231px;
+    margin-left: 265px;
+    margin-top: 70px;
+    width: 181px;
+}
+
+.wrapper-inside.typO .mover2 {
+    border: 1px solid #CCCCCC;
+    height: 233px;
+    margin-left: 265px;
+    margin-top: 100px;
+    width: 181px;
+}
+
+.wrapper-inside.typO .mover3 {
+    border: 1px solid #CCCCCC;
+    height: 233px;
+    margin-left: 266px;
+    margin-top: 101px;
+    width: 179px;
+}
+
+.wrapper-inside.typO.cover .mover1 {
+    border: 1px solid #CCCCCC;
+    height: 259px;
+    left: 278px;
+    margin-left: 23px;
+    margin-top: 43px;
+    position: absolute;
+    top: 0;
+    width: 377px;
+}
+
+.wrapper-inside.typO.cover {
+    height: 333px !important;
+}
+
+.wrapper-inside.typO.cover #customText {
+    bottom: 125px;
+    color: #D60000;
+    font-size: 21px;
+    font-weight: normal;
+    height: 189px;
+    left: 30px;
+    top: 38px;
+    width: 259px;
+}
+
+/****** ******/
+
+/**** TYPE Q ****/
+
+.wrapper-inside.typQ .mover1 {
+    border: 1px solid #CCCCCC;
+    height: 238px;
+    margin-left: 172px;
+    margin-top: 69px;
+    width: 364px;
+}
+
+.wrapper-inside.typQ .mover2 {
+    border: 1px solid #CCCCCC;
+    height: 238px;
+    margin-left: 172px;
+    margin-top: 94px;
+    width: 364px;
+}
+
+.wrapper-inside.typQ .mover3 {
+    border: 1px solid #CCCCCC;
+    height: 240px;
+    margin-left: 172px;
+    margin-top: 94px;
+    width: 364px;
+}
+
+.wrapper-inside.typQ.cover .mover1 {
+    border: 1px solid #CCCCCC;
+    height: 256px;
+    left: 6px;
+    margin-left: 23px;
+    margin-top: 43px;
+    position: absolute;
+    top: 7px;
+    width: 436px;
+}
+
+.wrapper-inside.typQ.cover {
+    height: 333px !important;
+}
+
+.wrapper-inside.typQ.cover #customText {
+    bottom: 25px;
+    color: #D60000;
+    font-size: 21px;
+    font-weight: normal;
+    height: 189px;
+    right: 20px;
+    width: 213px;
+}
+
+/****** ******/
+
+/**** TYPE P ****/
+
+.wrapper-inside.typP .mover1 {
+    border: 1px solid #CCCCCC;
+    height: 240px;
+    left: 29px;
+    position: absolute;
+    top: 68px;
+    width: 183px;
+}
+
+.wrapper-inside.typP .mover2 {
+    border: 1px solid #CCCCCC;
+    height: 240px;
+    right: 29px;
+    position: absolute;
+    top: 68px;
+    width: 183px;
+}
+
+.wrapper-inside.typP .mover3 {
+    border: 1px solid #CCCCCC;
+    height: 240px;
+    left: 29px;
+    position: absolute;
+    top: 401px;
+    width: 183px;
+}
+
+.wrapper-inside.typP .mover4 {
+    border: 1px solid #CCCCCC;
+    height: 240px;
+    right: 29px;
+    position: absolute;
+    top: 401px;
+    width: 183px;
+}
+
+.wrapper-inside.typP .mover5 {
+    border: 1px solid #CCCCCC;
+    height: 240px;
+    left: 29px;
+    position: absolute;
+    top: 734px;
+    width: 183px;
+}
+
+.wrapper-inside.typP .mover6 {
+    border: 1px solid #CCCCCC;
+    height: 240px;
+    right: 29px;
+    position: absolute;
+    top: 734px;
+    width: 183px;
+}
+
+.wrapper-inside.typP.cover .mover1 {
+    border: 1px solid #CCCCCC;
+    height: 257px;
+    left: 6px;
+    margin-left: 23px;
+    margin-top: 43px;
+    position: absolute;
+    top: 1px;
+    width: 378px;
+}
+
+.wrapper-inside.typP.cover {
+    height: 333px !important;
+}
+
+.wrapper-inside.typP.cover #customText {
+    bottom: 75px;
+    color: #D60000;
+    font-size: 21px;
+    font-weight: normal;
+    height: 179px;
+    right: 20px;
+    width: 257px;
+}
+
+/****** TYP R ******/
+
+.wrapper-inside.typR.cover .mover1 {
+    border: 1px solid #CCCCCC;
+    height: 400px;
+    margin-left: 0;
+    margin-top: 0;
+    width: 550px;
+}
+
+.wrapper-inside.typR.cover #customText {
+    bottom: 125px;
+    color: #FFFFFF;
+    font-size: 27px;
+    font-weight: bold;
+    height: 65px;
+    left: 64px;
+    overflow: hidden;
+    text-align: right;
+    text-shadow: 1px 1px #000000;
+    top: 340px;
+    width: 450px;
+}
+
+/****** TYP S ******/
+
+.wrapper-inside.typS.cover .mover1 {
+    border: 1px solid #CCCCCC;
+    height: 400px;
+    margin-left: 0;
+    margin-top: 0;
+    width: 550px;
+}
+
+.wrapper-inside.typS.cover #customText {
+    bottom: 125px;
+    color: #FFFFFF;
+    font-size: 27px;
+    font-weight: bold;
+    height: 65px;
+    left: 64px;
+    overflow: hidden;
+    text-align: right;
+    text-shadow: 1px 1px #000000;
+    top: 340px;
+    width: 450px;
+}
+
+/****** TYP T ******/
+
+.wrapper-inside.typT.cover .mover1 {
+    border: 1px solid #CCCCCC;
+    height: 400px;
+    margin-left: 0;
+    margin-top: 0;
+    width: 550px;
+}
+
+.wrapper-inside.typT.cover #customText {
+    bottom: 125px;
+    color: #FFFFFF;
+    font-size: 27px;
+    font-weight: bold;
+    height: 65px;
+    left: 64px;
+    overflow: hidden;
+    text-align: right;
+    text-shadow: 1px 1px #000000;
+    top: 340px;
+    width: 450px;
+}
+
+/****** TYP U ******/
+
+.wrapper-inside.typU.cover .mover1 {
+    border: 1px solid #CCCCCC;
+    height: 400px;
+    margin-left: 0;
+    margin-top: 0;
+    width: 550px;
+}
+
+.wrapper-inside.typU.cover #customText {
+    bottom: 125px;
+    color: #FFFFFF;
+    font-size: 27px;
+    font-weight: bold;
+    height: 65px;
+    left: 64px;
+    overflow: hidden;
+    text-align: right;
+    text-shadow: 1px 1px #000000;
+    top: 340px;
+    width: 450px;
+}
+
+/****** TYP V ******/
+
+.wrapper-inside.typV.cover .mover1 {
+    border: 1px solid #CCCCCC;
+    height: 400px;
+    margin-left: 0;
+    margin-top: 0;
+    width: 550px;
+}
+
+.wrapper-inside.typV.cover #customText {
+    bottom: 125px;
+    color: #FFFFFF;
+    font-size: 27px;
+    font-weight: bold;
+    height: 65px;
+    left: 64px;
+    overflow: hidden;
+    text-align: right;
+    text-shadow: 1px 1px #000000;
+    top: 340px;
+    width: 450px;
+}
+
+/****** TYP W ******/
+
+.wrapper-inside.typW.cover .mover1 {
+    border: 1px solid #CCCCCC;
+    height: 269px;
+    margin-left: 26px;
+    margin-top: 30px;
+    width: 402px;
+}
+
+.wrapper-inside.typW .mover1 {
+    border: 1px solid #CCCCCC;
+    height: 269px;
+    margin-left: 26px;
+    margin-top: 30px;
+    width: 372px;
+}
+
+.wrapper-inside.typW .mover2 {
+    border: 1px solid #CCCCCC;
+    height: 269px;
+    margin-left: 26px;
+    margin-top: 60px;
+    width: 372px;
+}
+
+.wrapper-inside.typW .mover3 {
+    border: 1px solid #CCCCCC;
+    height: 269px;
+    margin-left: 26px;
+    margin-top: 57px;
+    width: 372px;
+}
+
+.wrapper-inside.typW .mover4 {
+    border: 1px solid #CCCCCC;
+    height: 269px;
+    margin-left: 26px;
+    margin-top: 60px;
+    width: 372px;
+}
+
+.wrapper-inside.typW .mover5 {
+    border: 1px solid #CCCCCC;
+    height: 269px;
+    margin-left: 26px;
+    margin-top: 58px;
+    width: 372px;
+}
+
+.wrapper-inside.typW.cover #customText {
+    bottom: 125px;
+    color: #D60000;
+    font-size: 25px;
+    font-weight: bold;
+    height: 65px;
+    left: 440px;
+    overflow: hidden;
+    text-align: left;
+    top: 30px;
+    width: 250px;
+}
+
+.alert.dimensionError {
+    width: 90%;
+}
+
+.alert.dimensionError h5 {
+    font-size: 16px;
+    margin-bottom: 7px;
+}
+
+.alert.dimensionError ul {
+    margin-bottom: 0;
+}
+
+.alert.dimensionError p {
+    border-top: 1px solid #222;
+    color: #222;
+    margin-bottom: 0;
+    margin-top: 12px;
+    padding-top: 3px;
+}
+
+.alert.dimensionError li {
+
+}
+
+.image-already-used {
+    position: absolute;
+    height: 20px;
+    width: 100%;
+    line-height: 20px;
+    background: rgba(230, 132, 14, 0.65);
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+#depo-place-picked-detail p {
+    margin: 0px;
+}

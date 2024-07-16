@@ -1,0 +1,765 @@
+@page {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.cal-holder {
+    margin: 0 auto;
+    z-index: 999;
+}
+
+#currentMonth {
+    margin: 0 auto;
+    z-index: 1500;
+}
+
+img {
+    max-width: none;
+    position: absolute;
+    z-index: 1;
+}
+
+.image {
+    background: none repeat scroll 0 0 transparent;
+    overflow: hidden !important;
+    position: absolute;
+    z-index: 1;
+}
+
+.cal-a .image {
+    height: 2988px;
+    left: 187px;
+    top: 211px;
+    width: 1531px;
+}
+
+.cal-a.cover #customText {
+    bottom: 1658px;
+    color: #DB0811;
+    font-family: sans-serif;
+    font-size: 155px;
+    font-weight: bold;
+    height: 250px;
+    left: 184px;
+    line-height: 250px;
+    position: absolute;
+    width: 1546px;
+}
+
+.cal-b .image.img-2 {
+    height: 1430px;
+    left: 187px;
+    top: 1761px;
+    width: 1531px;
+}
+
+.cal-b .image.img-1 {
+    height: 1430px;
+    left: 187px;
+    top: 211px;
+    width: 1531px;
+}
+
+.cal-b.cover #customText {
+    bottom: 1670px;
+    color: #0086CA;
+    font-family: sans-serif;
+    font-size: 165px;
+    font-weight: bold;
+    height: 250px;
+    left: 184px;
+    line-height: 245px;
+    position: absolute;
+    width: 1580px;
+}
+
+.cal-c .image {
+    height: 2954px;
+    left: 18px;
+    top: 18px;
+    width: 2516px;
+}
+
+.cal-c.cover #customText {
+    bottom: 345px;
+    color: #0086ca;
+    font-family: sans-serif;
+    font-size: 105px;
+    font-weight: bold;
+    height: 250px;
+    left: 155px;
+    line-height: 140px;
+    position: absolute;
+    width: 1526px;
+}
+
+.cal-d.cover #customText {
+    bottom: 630px;
+    color: #0086CA;
+    font-family: sans-serif;
+    font-size: 140px;
+    font-weight: bold;
+    height: 250px;
+    left: 194px;
+    line-height: 180px;
+    position: absolute;
+    width: 2155px;
+}
+
+.cal-d.cover .image.img-1 {
+    height: 1708px;
+    left: 170px;
+    top: 858px;
+    width: 2209px;
+}
+
+.cal-d .image.img-1 {
+    height: 1565px;
+    left: 171px;
+    top: 182px;
+    width: 2208px;
+}
+
+.cal-d .image.img-2 {
+    height: 841px;
+    top: 1880px;
+    width: 654px;
+    left: 171px;
+}
+
+.cal-d .image.img-3 {
+    height: 841px;
+    top: 1880px;
+    width: 654px;
+    left: 945px;
+}
+
+.cal-d .image.img-4 {
+    height: 841px;
+    top: 1880px;
+    left: 1725px;
+    width: 654px;
+}
+
+.cal-e.cover #customText {
+    color: #DE0812;
+    font-family: sans-serif;
+    font-size: 125px;
+    font-weight: bold;
+    height: 250px;
+    left: 220px;
+    line-height: 210px;
+    position: absolute;
+    top: 170px;
+    width: 2110px;
+}
+
+.cal-e.cover .image.img-1 {
+    height: 1708px;
+    left: 170px;
+    top: 1018px;
+    width: 2209px;
+}
+
+.cal-e .image.img-4 {
+    height: 1565px;
+    left: 171px;
+    top: 1153px;
+    width: 2208px;
+}
+
+.cal-e .image.img-1 {
+    height: 841px;
+    top: 178px;
+    width: 654px;
+    left: 171px;
+}
+
+.cal-e .image.img-2 {
+    height: 841px;
+    top: 178px;
+    width: 654px;
+    left: 945px;
+}
+
+.cal-e .image.img-3 {
+    height: 841px;
+    top: 178px;
+    left: 1725px;
+    width: 654px;
+}
+
+.cal-f .image {
+    height: 4171px;
+    left: 18px;
+    top: 18px;
+    width: 3547px;
+}
+
+.cal-f.cover #customText {
+    bottom: 616px;
+    color: #DE0812;
+    font-family: sans-serif;
+    font-size: 155px;
+    font-weight: bold;
+    height: 250px;
+    left: 224px;
+    line-height: 245px;
+    position: absolute;
+    width: 3115px;
+}
+
+.cal-g.cover #customText {
+    color: #0086CA;
+    font-family: sans-serif;
+    font-size: 165px;
+    font-weight: bold;
+    height: 250px;
+    left: 210px;
+    line-height: 225px;
+    position: absolute;
+    top: 350px;
+    width: 3156px;
+}
+
+.cal-g.cover .image.img-1 {
+    height: 2775px;
+    left: 210px;
+    top: 1098px;
+    width: 3165px;
+}
+
+.cal-g .image.img-1 {
+    height: 2235px;
+    left: 212px;
+    top: 271px;
+    width: 3160px;
+}
+
+.cal-g .image.img-3 {
+    height: 1196px;
+    left: 1325px;
+    top: 2677px;
+    width: 937px;
+}
+
+.cal-g .image.img-4 {
+    height: 1196px;
+    left: 2433px;
+    top: 2677px;
+    width: 937px;
+}
+
+.cal-g .image.img-2 {
+    height: 1196px;
+    left: 212px;
+    top: 2677px;
+    width: 937px;
+}
+
+.cal-h .image.img-4 {
+    height: 2233px;
+    left: 212px;
+    top: 1640px;
+    width: 3158px;
+}
+
+.cal-h .image.img-2 {
+    height: 1200px;
+    left: 1324px;
+    top: 271px;
+    width: 931px;
+}
+
+.cal-h .image.img-3 {
+    height: 1200px;
+    left: 2436px;
+    top: 271px;
+    width: 934px;
+}
+
+.cal-h .image.img-1 {
+    height: 1200px;
+    left: 212px;
+    top: 271px;
+    width: 934px;
+}
+
+.cal-h.cover #customText {
+    color: #DE0812;
+    font-family: sans-serif;
+    font-size: 210px;
+    font-weight: bold;
+    height: 250px;
+    left: 254px;
+    line-height: 240px;
+    position: absolute;
+    top: 225px;
+    width: 3106px;
+}
+
+.cal-h.cover .image.img-1 {
+    height: 2777px;
+    left: 210px;
+    top: 1092px;
+    width: 3161px;
+}
+
+.cal-j .image {
+    height: 2219px;
+    left: 161px;
+    top: 253px;
+    width: 1807px;
+}
+
+.cal-j.cover .image {
+    height: 2006px;
+    left: 887px;
+    top: 466px;
+    width: 2669px;
+}
+
+.cal-j.cover #customText {
+    color: #E31B22;
+    font-family: sans-serif;
+    font-size: 110px;
+    font-weight: bold;
+    height: 250px;
+    left: 914px;
+    line-height: 135px;
+    position: absolute;
+    top: 107px;
+    width: 2626px;
+}
+
+.cal-n .image {
+    height: 3169px;
+    width: 2584px;
+    left: 214px;
+    top: 344px;
+}
+
+.cal-n.cover .image {
+    height: 2889px;
+    left: 214px;
+    top: 624px;
+    width: 4848px;
+}
+
+.cal-n.cover #customText {
+    color: #0085CB;
+    font-family: sans-serif;
+    font-size: 184px;
+    font-weight: bold;
+    height: 250px;
+    left: 279px;
+    line-height: 155px;
+    position: absolute;
+    top: 377px;
+    width: 4780px;
+}
+
+.cal-i .image {
+    height: 1897px;
+    width: 3696px;
+    left: 19px;
+    top: 19px;
+}
+
+.cal-i.cover .image {
+    height: 2005px;
+    width: 3696px;
+    left: 19px;
+    top: 19px;
+}
+
+.cal-i.cover #customText {
+    color: #DE0812;
+    font-family: sans-serif;
+    font-size: 140px;
+    font-weight: bold;
+    height: 250px;
+    left: 234px;
+    line-height: 195px;
+    position: absolute;
+    top: 2074px;
+    width: 2466px;
+}
+
+.cal-m .image {
+    height: 2703px;
+    width: 5232px;
+    left: 19px;
+    top: 19px;
+}
+
+.cal-m.cover #customText {
+    color: #DB0811;
+    font-family: sans-serif;
+    font-size: 194px;
+    font-weight: bold;
+    height: 250px;
+    left: 234px;
+    line-height: 275px;
+    position: absolute;
+    top: 2831px;
+    width: 3595px;
+}
+
+.cal-l .image {
+    height: 1508px;
+    left: 1452px;
+    top: 24px;
+    width: 2260px;
+}
+
+.cal-l.cover #customText {
+    color: #E30614;
+    font-family: sans-serif;
+    font-size: 85px;
+    font-weight: normal;
+    height: 250px;
+    left: 149px;
+    line-height: 155px;
+    position: absolute;
+    top: 127px;
+    width: 1190px;
+}
+
+.cal-k .image.img-1 {
+    height: 1180px;
+    width: 1059px;
+    left: 149px;
+    top: 198px;
+}
+
+.cal-k.cover .image.img-1 {
+    height: 1180px;
+    left: 116px;
+    top: 199px;
+    width: 1589px;
+}
+
+.cal-k .image.img-2 {
+    height: 1180px;
+    width: 1059px;
+    left: 2522px;
+    top: 198px;
+}
+
+.cal-k.cover #customText {
+    color: #E30614;
+    font-family: sans-serif;
+    font-size: 85px;
+    font-weight: normal;
+    height: 250px;
+    left: 1824px;
+    line-height: 155px;
+    position: absolute;
+    top: 177px;
+    width: 1710px;
+}
+
+.cal-o .image.img-1 {
+    height: 1243px;
+    left: 1396px;
+    top: 399px;
+    width: 944px;
+}
+
+.cal-o.cover .image.img-1 {
+    height: 1380px;
+    left: 1591px;
+    top: 260px;
+    width: 1962px;
+}
+
+.cal-o .image.img-2 {
+    height: 1243px;
+    left: 1396px;
+    top: 2183px;
+    width: 944px;;
+}
+
+.cal-o .image.img-3 {
+    height: 1243px;
+    left: 1396px;
+    top: 3967px;
+    width: 944px;
+}
+
+.cal-o.cover #customText {
+    color: #E30614;
+    font-family: sans-serif;
+    font-size: 94px;
+    font-weight: normal;
+    height: 250px;
+    left: 197px;
+    line-height: 155px;
+    position: absolute;
+    top: 265px;
+    width: 1310px;
+}
+
+.cal-q .image.img-1 {
+    height: 1240px;
+    left: 920px;
+    top: 390px;
+    width: 1894px;
+}
+
+.cal-q .image.img-2 {
+    height: 1245px;
+    left: 920px;
+    top: 2168px;
+    width: 1894px;
+}
+
+.cal-q .image.img-3 {
+    height: 1241px;
+    left: 920px;
+    top: 3955px;
+    width: 1894px;
+}
+
+.cal-q.cover #customText {
+    color: #E30614;
+    font-family: sans-serif;
+    font-size: 94px;
+    font-weight: normal;
+    height: 510px;
+    line-height: 155px;
+    position: absolute;
+    right: 115px;
+    top: 650px;
+    width: 1130px;
+}
+
+.cal-q.cover .image.img-1 {
+    height: 1343px;
+    left: 184px;
+    top: 290px;
+    width: 2256px;
+}
+
+.cal-p .image.img-1 {
+    height: 1241px;
+    left: 184px;
+    top: 390px;
+    width: 949px;
+}
+
+.cal-p .image.img-2 {
+    height: 1241px;
+    right: 184px;
+    top: 390px;
+    width: 949px;
+}
+
+.cal-p .image.img-3 {
+    height: 1241px;
+    left: 184px;
+    top: 2171px;
+    width: 949px;
+}
+
+.cal-p .image.img-4 {
+    height: 1241px;
+    right: 184px;
+    top: 2171px;
+    width: 949px;
+}
+
+.cal-p .image.img-5 {
+    height: 1241px;
+    left: 184px;
+    top: 3952px;
+    width: 949px;
+}
+
+.cal-p .image.img-6 {
+    height: 1241px;
+    right: 184px;
+    top: 3952px;
+    width: 949px;
+}
+
+.cal-p.cover #customText {
+    color: #E30614;
+    font-family: sans-serif;
+    font-size: 90px;
+    font-weight: normal;
+    height: 910px;
+    line-height: 155px;
+    position: absolute;
+    right: 173px;
+    top: 435px;
+    width: 1275px;
+}
+
+.cal-p.cover .image.img-1 {
+    height: 1339px;
+    left: 184px;
+    top: 262px;
+    width: 1958px;
+}
+
+.cal-r.cover .image.img-1 {
+    height: 2669px;
+    left: 0;
+    top: 0;
+    width: 3732px;
+}
+
+.cal-r.cover #customText {
+    color: #FFFFFF;
+    font-family: sans-serif;
+    font-size: 140px;
+    font-weight: bold;
+    height: 420px;
+    left: 300px;
+    line-height: 175px;
+    overflow: hidden;
+    position: absolute;
+    text-align: right;
+    text-shadow: 10px 10px #000000;
+    top: 2350px;
+    width: 3230px;
+    z-index: 1000;
+}
+
+.cal-s.cover .image.img-1 {
+    height: 2669px;
+    left: 0;
+    top: 0;
+    width: 3732px;
+}
+
+.cal-s.cover #customText {
+    color: #FFFFFF;
+    font-family: sans-serif;
+    font-size: 140px;
+    font-weight: bold;
+    height: 420px;
+    left: 300px;
+    line-height: 175px;
+    overflow: hidden;
+    position: absolute;
+    text-align: right;
+    text-shadow: 10px 10px #000000;
+    top: 2350px;
+    width: 3230px;
+    z-index: 1000;
+}
+
+.cal-t.cover .image.img-1 {
+    height: 2669px;
+    left: 0;
+    top: 0;
+    width: 3732px;
+}
+
+.cal-t.cover #customText {
+    color: #FFFFFF;
+    font-family: sans-serif;
+    font-size: 140px;
+    font-weight: bold;
+    height: 420px;
+    left: 300px;
+    line-height: 175px;
+    overflow: hidden;
+    position: absolute;
+    text-align: right;
+    text-shadow: 10px 10px #000000;
+    top: 2350px;
+    width: 3230px;
+    z-index: 1000;
+}
+
+.cal-u.cover .image.img-1 {
+    height: 2669px;
+    left: 0;
+    top: 0;
+    width: 3732px;
+}
+
+.cal-u.cover #customText {
+    color: #FFFFFF;
+    font-family: sans-serif;
+    font-size: 140px;
+    font-weight: bold;
+    height: 420px;
+    left: 300px;
+    line-height: 175px;
+    overflow: hidden;
+    position: absolute;
+    text-align: right;
+    text-shadow: 10px 10px #000000;
+    top: 2350px;
+    width: 3230px;
+    z-index: 1000;
+}
+
+.cal-v.cover .image.img-1 {
+    height: 2669px;
+    left: 0;
+    top: 0;
+    width: 3732px;
+}
+
+.cal-v.cover #customText {
+    color: #FFFFFF;
+    font-family: sans-serif;
+    font-size: 140px;
+    font-weight: bold;
+    height: 420px;
+    left: 300px;
+    line-height: 175px;
+    overflow: hidden;
+    position: absolute;
+    text-align: right;
+    text-shadow: 10px 10px #000000;
+    top: 2350px;
+    width: 3230px;
+    z-index: 1000;
+}
+
+.cal-w .image.img-1 {
+    height: 1402px;
+    left: 175px;
+    top: 201px;
+    width: 1951px;
+}
+
+.cal-w.cover .image.img-1 {
+    height: 1402px;
+    left: 175px;
+    top: 201px;
+    width: 2089px;
+}
+
+.cal-w.cover #customText {
+    color: #E30614;
+    font-family: sans-serif;
+    font-size: 100px;
+    font-weight: bold;
+    height: 750px;
+    left: 2290px;
+    line-height: 175px;
+    overflow: hidden;
+    position: absolute;
+    top: 180px;
+    width: 1400px;
+    z-index: 1000;
+    text-align: left;
+}

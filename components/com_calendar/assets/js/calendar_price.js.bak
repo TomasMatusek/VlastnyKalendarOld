@@ -1,0 +1,152 @@
+jQuery(document).ready(function() {
+
+		//creates the extra box class
+		var paymentSelect = jQuery('#payment_method');
+		paymentSelect.extraBox({ attribute: 'class' });
+
+		function hideOption(name,type) {
+			var wrapper = ".wrap-"+type;
+			var isWrapped = jQuery("#payment_method").find(wrapper).length;
+			if (isWrapped == 0) {
+    			jQuery(name).wrap('<span class="wrap-'+type+'" />');
+			}
+		}
+
+		function showOption(name,type) {
+			var wrapper = ".wrap-"+type;
+			var isWrapped = jQuery("#payment_method").find(wrapper).length;
+			if (isWrapped != 0) {
+    			jQuery(name).unwrap();
+			}
+		}
+
+
+		jQuery("#quantity").on("change keyup", generatePrice);
+		jQuery("#shipping").change(generatePrice);
+		jQuery("#payment_method").on("change", generatePrice);
+
+		function generatePrice() {
+			var price = parseFloat(jQuery("#price_def").val());
+			var method = jQuery("#shipping option:selected").val();
+			var payment_method = jQuery("#payment_method option:selected").val();
+			var quantity = jQuery("#quantity").val();
+			var cover_price = jQuery("#cover_price").val();
+			var payment_price_for_item = jQuery("#payment_price_for_item").val();
+			var final_price = 0;
+			var shipping_price = parseFloat(jQuery("#shipment_price_"+method).val());
+
+			var payment_price = 0;
+
+			if (method == "post") {
+				paymentSelect.data('extraBox').enable('post');
+
+				paymentSelect.data('extraBox').disable('courier');
+				paymentSelect.data('extraBox').disable('personal');
+				paymentSelect.data('extraBox').disable('post-cz');
+				paymentSelect.data('extraBox').disable('post-eu');
+
+				payment_method = jQuery("#payment_method option:selected").val();
+
+				if(payment_method == "cash") {
+					jQuery("#payment_method option[value='cash']").attr("selected",false);
+				}
+
+				if(payment_method == "cod") {
+					payment_price = parseFloat(jQuery("#shipment_price_post_cod").val())
+				} else if(payment_method == "post-transfer") {
+					payment_price = parseFloat(jQuery("#shipment_price_post_transfer").val())
+				}
+
+			}
+			else if (method == "courier") {
+				paymentSelect.data('extraBox').enable('courier');
+
+				paymentSelect.data('extraBox').disable('post');
+				paymentSelect.data('extraBox').disable('personal');
+				paymentSelect.data('extraBox').disable('post-cz');
+				paymentSelect.data('extraBox').disable('post-eu');
+
+				payment_method = jQuery("#payment_method option:selected").val();
+
+				if(payment_method == "cash" || payment_method == "cod") {
+					jQuery("#payment_method option[value='cash']").attr("selected",false);
+					jQuery("#payment_method option[value='cod-courier']").attr("selected",true);
+					payment_method = "cod-courier";
+				}
+
+				if(payment_method == "cod-courier") {
+					payment_price = parseFloat(jQuery("#shipment_price_courier_cod").val());
+				}
+			}
+                else if(method == "post-cz") {
+				paymentSelect.data('extraBox').enable('post-cz');
+
+				paymentSelect.data('extraBox').disable('courier');
+				paymentSelect.data('extraBox').disable('post');
+				paymentSelect.data('extraBox').disable('personal');
+				paymentSelect.data('extraBox').disable('post-eu');
+
+				payment_price = parseFloat(jQuery("#payment_price_post_cz").val());
+			}
+			else if(method == "post-eu") {
+				paymentSelect.data('extraBox').enable('post-eu');
+
+				paymentSelect.data('extraBox').disable('courier');
+				paymentSelect.data('extraBox').disable('post');
+				paymentSelect.data('extraBox').disable('personal');
+				paymentSelect.data('extraBox').disable('post-cz');
+
+				payment_price = parseFloat(jQuery("#payment_price_post_eu").val());
+			}
+			else {
+				paymentSelect.data('extraBox').enable('personal');
+				paymentSelect.data('extraBox').disable('courier');
+				paymentSelect.data('extraBox').disable('post');
+				paymentSelect.data('extraBox').disable('post-cz');
+				paymentSelect.data('extraBox').disable('post-eu');
+			}
+
+			if (method != "personal") {
+
+				var aditional_shipment_payment_for_copyies = 0;
+
+				if (method == "post" || method=="post-cz" || method=="post-eu") {
+
+					if(quantity > 1)
+					{
+						aditional_shipment_payment_for_copyies = payment_price_for_item * (quantity-1);
+					}
+
+				}
+
+				final_price = (price * quantity + quantity * cover_price + shipping_price + payment_price + aditional_shipment_payment_for_copyies).toFixed(2);
+				jQuery(".shipping-form").css("display","block").fadeIn(150);
+
+				jQuery("#city, #address , #zip, #billing_zip, #billing_city, #billing_address").addClass("required");
+
+			} else {
+				final_price = (price * quantity + quantity * cover_price).toFixed(2);
+				jQuery(".shipping-form").css("display","none").fadeOut(150);
+				jQuery("span.deliveryResult").html('NIE');
+				jQuery("#deliveryCheck").removeAttr("checked");
+				jQuery(".delivery-form").css("display","none");
+
+				//jQuery("#city, #address , #zip, #billing_zip, #billing_city, #billing_address, #shipping_zip, #shipping_city, #shipping_address, #shipping_name, #shipping_phone ").val(" ");
+				jQuery("#city, #address , #zip, #billing_zip, #billing_city, #billing_address").removeClass("required");
+				//jQuery("#city, #address , #zip").attr("aria-invalid","false");
+				//jQuery(".shipping-form label").attr("aria-invalid","false");
+			}
+
+			if(final_price < 0) {
+				final_price = 0;
+			}
+
+			jQuery("#price_show").html(final_price+" €");
+
+			jQuery("#final_price").val(final_price);
+		}
+
+		jQuery('#quantity').trigger('change');
+
+    	generatePrice();
+});
