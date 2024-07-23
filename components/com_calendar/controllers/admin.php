@@ -462,23 +462,6 @@ class CalendarControllerAdmin extends CalendarController
         jexit();
     }
 
-    public function removeCalendarBackupImages()
-    {
-        if ( ! Permissions::isUserAdmin($this->user_id)) {
-            jexit('Only admins can run this action');
-        }
-
-        $ids = $this->input->get('id', array());
-        $order_id = $this->input->get('order_id', 0);
-
-        foreach ($ids as $index => $calendar_id) {
-            echo $calendar_id;
-            $this->modelAdmin->removeLinkBetweenImagesAndCalendar($calendar_id);
-        }
-
-        $this->app->redirect('index.php/component/calendar/?view=admin&layout=order&order_id=' . $order_id);
-    }
-
     public function generateIkrosInvoice() {
         if ( ! Permissions::isUserAdmin($this->user_id)) {
             jexit('Only admins can run this action');
@@ -487,7 +470,8 @@ class CalendarControllerAdmin extends CalendarController
         $order_id = $this->input->get('order_id', 0);
         $user_id = $this->input->get('user_id', 0);
 
-        IkrosService::updateInvoice($this->model->getOrderDetail($order_id, $user_id), $this->model);
+        $order = $this->model->getOrderDetail($order_id, $user_id);
+        IkrosServiceBak::pushInvoice($order, $this->model);
 
         $this->app->redirect('index.php/component/calendar/?view=admin&layout=order&order_id=' . $order_id);
     }

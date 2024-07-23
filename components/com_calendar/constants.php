@@ -16,9 +16,10 @@ class CalendarConstants {
 
     // Invoice & Remax details
     public static $ALDO_NAME = "Alica Dórová - ALDO";
+    public static $ALDO_CONTACT_PERSON_NAME = "Alica Dórová";
     public static $ALDO_ADDRESS = "Ursínyho 1";
     public static $ALDO_CITY = "Bratislava";
-    public static $ALDO_ZIP = "831 02";
+    public static $ALDO_ZIP = "83102";
     public static $ALDO_COUNTRY = "Slovenská republika";
     public static $ALDO_COUNTRY_CODE = "SK";
     public static $ALDO_ICO = "34463500";
@@ -27,6 +28,8 @@ class CalendarConstants {
     public static $ALDO_DETAIL = "ev.č.: žo-96/03270/001, reg. č. 2530/96";
     public static $ALDO_STORE = "Ursínyho 1, 831 02 Bratislava";
     public static $ALDO_PHONE = "+421905471812";
+    public static $ALDO_EMAIL = "aldo@aldodesign.sk";
+    public static $ALDO_WEB = "vlastnykalendar.sk";
 
     public static $ALDO_BANK_ACCOUNT = "0011535932/0900";
     public static $ALDO_BANK_NAME = "Slovenská sporiteľňa, a.s.";
